@@ -27,6 +27,7 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  height: 60px;
 }
 .main-header div a:nth-child(1) {
   animation: animationA 8s;
@@ -58,7 +59,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 105px;
+  bottom: 20px;
   height: 2px;
   width: 100%;
   transform: translateX(-110%);
