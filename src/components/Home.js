@@ -4,7 +4,7 @@ const Home = () => {
     <div>
       <h1>Front-end Web Developer</h1>
       <p>
-        Hi,i'm Oktay Rasimov.A passionate Front-end Developer based in
+        Hi,i'm Oktay Rasimov. A passionate Front-end Developer based in
         Asenovgrad,Plovdiv
       </p>
     </div>
