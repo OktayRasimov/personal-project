@@ -1,1 +1,26 @@
-
+.icon {
+  color: #28c27f;
+}
+.home-container {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: max(700px, 40%);
+}
+.home-main-text {
+  font-size: 3.8rem;
+}
+.home-second-text {
+  font-size: 3rem;
+  color: rgb(177, 177, 177);
+}
+.home-second-text span {
+  color: #28c27f;
+}
