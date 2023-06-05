@@ -2,7 +2,7 @@
   color: #28c27f;
 }
 .home-container {
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -16,8 +16,9 @@
   width: max(700px, 40%);
 }
 .home-main-text {
-  font-size: 3.8rem;
+  font-size: 5.8rem;
 }
+
 .home-second-text {
   font-size: 3rem;
   color: rgb(177, 177, 177);
@@ -30,13 +31,17 @@
   max-width: 250px;
   background-color: #28c27f;
   animation: imgBorder 5s infinite;
+  animation-direction: alternate;
 }
 @keyframes imgBorder {
   0% {
-    clip-path: inset(0% 15% 0% 15% round 10px);
+    clip-path: polygon(50% 12%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+  50% {
+    clip-path: polygon(54% 0, 100% 27%, 89% 99%, 13% 94%, 0 19%);
   }
 
   100% {
-    clip-path: polygon(51% 5%, 93% 11%, 88% 89%, 13% 94%, 11% 24%);
+    clip-path: polygon(57% 8%, 95% 36%, 85% 79%, 14% 83%, 11% 27%);
   }
 }

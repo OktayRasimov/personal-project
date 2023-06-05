@@ -1,5 +1,5 @@
 import "./Section1.css";
-import MainHeader from "./MainHeader";
+import MainHeader from "../components/MainHeader";
 import Home from "./Home";
 
 const Section1 = () => {

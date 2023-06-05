@@ -1,0 +1,40 @@
+.tech-stack-container {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  font-size: 2rem;
+}
+.tech-stack-container h1 {
+  padding-right: 4rem;
+  margin-right: 3rem;
+  position: relative;
+}
+.tech-stack-container h1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  background-color: #28c27f;
+  height: 100%;
+  width: 2px;
+  animation: borderAnimated 1s both;
+  animation-delay: 1.8s;
+  transform-origin: center;
+}
+@keyframes borderAnimated {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.technologies {
+  display: flex;
+  gap: 2rem;
+  font-size: 3rem;
+  color: #28c27f;
+}
