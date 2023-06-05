@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTag, faCity } from "@fortawesome/free-solid-svg-icons";
 import haikeiCircles from "../haikeiCircles.svg";
+import finalls from "./finalls.png";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
           <FontAwesomeIcon icon={faCity} className="icon" />
         </p>
       </div>
+      <img src={finalls} />
     </div>
   );
 };

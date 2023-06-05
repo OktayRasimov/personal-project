@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 .home-info-container {
   display: flex;
@@ -23,4 +24,19 @@
 }
 .home-second-text span {
   color: #28c27f;
+}
+.home-container img {
+  height: auto;
+  max-width: 250px;
+  background-color: #28c27f;
+  animation: imgBorder 5s infinite;
+}
+@keyframes imgBorder {
+  0% {
+    clip-path: inset(0% 15% 0% 15% round 10px);
+  }
+
+  100% {
+    clip-path: polygon(51% 5%, 93% 11%, 88% 89%, 13% 94%, 11% 24%);
+  }
 }
