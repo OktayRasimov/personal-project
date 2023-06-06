@@ -14,6 +14,7 @@ const Home = () => {
         <motion.div
           initial={{ x: -500, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
+          viewport={{ once: true }}
           transition={{ duration: 1 }}
           className="home-info-container"
         >
@@ -31,6 +32,7 @@ const Home = () => {
           initial={{ x: 400, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
+          viewport={{ once: true }}
           src={finalls}
         />
       </div>
