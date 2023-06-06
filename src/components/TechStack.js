@@ -16,7 +16,7 @@ const TechStack = () => {
       </motion.h1>
       <div className="technologies">
         <motion.div
-          initial={{ x: -90, opacity: 0 }}
+          initial={{ x: -80, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ delay: 3.4 }}
           viewport={{ once: true }}
@@ -32,7 +32,7 @@ const TechStack = () => {
           <FaCss3Alt />
         </motion.div>
         <motion.div
-          initial={{ x: -260, opacity: 0 }}
+          initial={{ x: -250, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ delay: 4.6 }}
           viewport={{ once: true }}
@@ -40,7 +40,7 @@ const TechStack = () => {
           <FaJs />
         </motion.div>
         <motion.div
-          initial={{ x: -340, opacity: 0 }}
+          initial={{ x: -330, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ delay: 5.2 }}
           viewport={{ once: true }}
@@ -48,7 +48,7 @@ const TechStack = () => {
           <FaReact />
         </motion.div>
         <motion.div
-          initial={{ x: -420, opacity: 0 }}
+          initial={{ x: -410, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ delay: 5.8 }}
           viewport={{ once: true }}
@@ -56,7 +56,7 @@ const TechStack = () => {
           <SiTailwindcss />
         </motion.div>
         <motion.div
-          initial={{ x: -500, opacity: 0 }}
+          initial={{ x: -490, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ delay: 6.4 }}
           viewport={{ once: true }}

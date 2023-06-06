@@ -8,8 +8,21 @@ import { motion } from "framer-motion";
 const Section2 = () => {
   return (
     <div className="section-2-container">
-      <h1>About me</h1>
-      <div className="about-me-bottom">
+      <motion.h1
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.6, duration: 2 }}
+        viewport={{ once: true }}
+      >
+        About me
+      </motion.h1>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+        className="about-me-bottom"
+      >
         <h5>hi there,im glad to have you here</h5>
         <p>
           My passion for web developement started in{" "}
@@ -29,14 +42,8 @@ const Section2 = () => {
           while integrating the{" "}
           <span className={"colorSpan"}>latest web technologies</span>
         </p>
-
-        <motion.img
-          src={astronaut}
-          className="astronaut"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-        />
-      </div>
+      </motion.div>
+      <img src={astronaut} className="astronaut" />
     </div>
   );
 };
