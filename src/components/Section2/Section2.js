@@ -32,9 +32,10 @@ const Section2 = () => {
         </p>
         <p>
           Since then,i have been constantly advancing and expanding my knowledge
-          in this field.After some time while still learning <span>JS</span> i
-          felt the urge to dive deeper into web development which led me to
-          learn how to code in <span className={"colorSpan"}>HTML</span>,
+          in this field.After some time while still learning{" "}
+          <span className={"colorSpan"}>JS</span> i felt the urge to dive deeper
+          into web development which led me to learn how to code in{" "}
+          <span className={"colorSpan"}>HTML</span>,
           <span className={"colorSpan"}>CSS</span>.
         </p>
         <p>
