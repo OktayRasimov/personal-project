@@ -1,0 +1,69 @@
+.contact-container {
+  height: 60vh;
+  max-width: 50%;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+.contact-form-container form ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.half input {
+  height: 80px;
+  width: 100%;
+  font-size: 2rem;
+}
+.contact-container h1 {
+  font-size: 4rem;
+}
+.contact-container p {
+  width: max(500px, 100px);
+  font-size: 1.2rem;
+  padding: 2rem 0;
+  color: #28c27f;
+}
+.grid-3 {
+  grid-column: 1/3;
+}
+.grid-4 {
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+.grid-5 {
+  grid-column: 2/3;
+}
+.contact-button {
+  width: 150px;
+  height: 3rem;
+
+  font-size: 2rem;
+  font-weight: 800;
+  background: url("../../nnnoise (1).svg") no-repeat center center fixed;
+  animation: backgroundAnimation 32s linear infinite;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: none;
+  position: relative;
+  transition: color 1s;
+  cursor: pointer;
+  border: 1px solid #28c27f3b;
+}
+.contact-button:hover {
+  color: #28c27f;
+  border: 2px solid #28c27f;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
+}

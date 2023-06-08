@@ -48,7 +48,16 @@ const MainHeader = () => {
             About
           </a>
           <a>Projects</a>
-          <a>Contact</a>
+          <a
+            onClick={() =>
+              gsap.to(window, {
+                duration: 1.4,
+                scrollTo: ".contact-container",
+              })
+            }
+          >
+            Contact
+          </a>
         </div>
       </div>
       {isNavbarFixed && <div style={{ height: "15vh" }} />}

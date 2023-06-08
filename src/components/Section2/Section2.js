@@ -42,6 +42,7 @@ const Section2 = () => {
           With each project i strive to create a unique and effective solution
           while integrating the{" "}
           <span className={"colorSpan"}>latest web technologies</span>
+          <a href="https://oktayrasimov.github.io/test-project/">Live Demo</a>
         </p>
       </motion.div>
       <img src={astronaut} className="astronaut" />
