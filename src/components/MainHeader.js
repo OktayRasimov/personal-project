@@ -28,9 +28,10 @@ const MainHeader = () => {
         <h2>Oktay.dev</h2>
         <div>
           <a
+            href="#home"
             onClick={() =>
               gsap.to(window, {
-                duration: 1.4,
+                duration: 0.8,
                 scrollTo: ".section-first",
               })
             }
@@ -38,20 +39,22 @@ const MainHeader = () => {
             Home
           </a>
           <a
+            href="#About"
             onClick={() =>
               gsap.to(window, {
-                duration: 1.4,
+                duration: 0.8,
                 scrollTo: ".section-2-container",
               })
             }
           >
             About
           </a>
-          <a>Projects</a>
+          <a href="#Projects">Projects</a>
           <a
+            href="#Contact-me"
             onClick={() =>
               gsap.to(window, {
-                duration: 1.4,
+                duration: 0.8,
                 scrollTo: ".contact-container",
               })
             }

@@ -21,7 +21,7 @@ const Map = () => {
       // whileInView={{ x: 0, scale: 1, opacity: 1 }}
       // transition={{ duration: 1.2, delay: 1 }}
     >
-      <MapContainer center={[42.01505123295127, 24.86028316137983]} zoom={15}>
+      <MapContainer center={[42.01505123295127, 24.86028316137983]} zoom={16}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

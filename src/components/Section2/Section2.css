@@ -8,6 +8,20 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  background: url("../../nnnoise (1).svg") no-repeat center center fixed;
+  animation: backgroundAnimation 85s linear infinite;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
 }
 .section-2-container h1 {
   margin-bottom: 5rem;

@@ -55,6 +55,8 @@ body {
   font-size: 2rem;
 }
 .main-header div a {
+  text-decoration: none !important;
+  color: inherit;
   transition: all 1s;
   cursor: pointer;
   position: relative;
