@@ -1,2 +1,13 @@
 .App {
 }
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #28c27f;
+  border-radius: 20px;
+  height: 10px;
+}

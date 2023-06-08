@@ -20,6 +20,7 @@
     "react-icons": "^4.9.0",
     "react-leaflet": "^4.2.1",
     "react-scripts": "5.0.1",
+    "simplebar-react": "^3.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
