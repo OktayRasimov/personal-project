@@ -35,8 +35,10 @@ const Contact = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 2.8 }}
       >
-        If you have any recommendations for my site or my other projects feel
-        free to send me a message or if you want to collab on a project
+        If you have any recommendations for my personal project or my other
+        projects feel free to send me a message on what i can tweak and make
+        better in your opinian and ill have a look or if you want to collab on a
+        project
       </motion.p>
       <motion.div
         className="contact-form-container"
