@@ -19,7 +19,7 @@ const Home = () => {
           className="home-info-container"
         >
           <h1 className="home-main-text">
-            Front-end Web Developer{" "}
+            Front-end Web Develope{" "}
             <FontAwesomeIcon icon={faTag} className="icon" />
           </h1>
           <p className="home-second-text">

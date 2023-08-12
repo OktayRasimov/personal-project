@@ -14,6 +14,7 @@ const Map = () => {
     <motion.div
       className="map-container"
       // animate={{ x: [200, 0], scale: [0.8, 0.8, 0.8, 0.8, 1] }}
+      viewport={{ once: true }}
       initial={{ opacity: 0 }}
       whileInView={{ x: [200, 0], scale: [0.8, 0.8, 0.8, 0.8, 1], opacity: 1 }}
       transition={{ duration: 1.6 }}
