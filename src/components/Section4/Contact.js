@@ -38,7 +38,7 @@ const Contact = () => {
         If you have any recommendations for my personal project or my other
         projects feel free to send me a message on what i can tweak and make
         better in your opinian and ill have a look or if you want to collab on a
-        project
+        project. PLEASE DO ⬇⬇⬇
       </motion.p>
       <motion.div
         className="contact-form-container"
