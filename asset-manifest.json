@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/personal-project/static/css/main.40b61e48.css",
+    "main.js": "/personal-project/static/js/main.011d7bd1.js",
+    "static/media/github-test.png": "/personal-project/static/media/github-test.e886592d3a16c39ae618.png",
+    "static/media/my-main_final.png": "/personal-project/static/media/my-main_final.98b0884744fed184064d.png",
+    "static/media/astronaut_green.svg": "/personal-project/static/media/astronaut_green.fab712c227109a932ea23c8acfeeb009.svg",
+    "static/media/finalls.png": "/personal-project/static/media/finalls.9e5bac2a0fd135154ea6.png",
+    "static/media/coming-soon.png": "/personal-project/static/media/coming-soon.91986782bc8bfac7967d.png",
+    "static/media/ccchaos (1).svg": "/personal-project/static/media/ccchaos (1).8a0b0ff0ed1a5d80f1390a44433b67e3.svg",
+    "index.html": "/personal-project/index.html",
+    "static/media/nnnoise (1).svg": "/personal-project/static/media/nnnoise (1).cad3aaa71b99411db68e.svg",
+    "main.40b61e48.css.map": "/personal-project/static/css/main.40b61e48.css.map",
+    "main.011d7bd1.js.map": "/personal-project/static/js/main.011d7bd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b61e48.css",
+    "static/js/main.011d7bd1.js"
+  ]
+}
