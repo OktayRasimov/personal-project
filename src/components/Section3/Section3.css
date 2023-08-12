@@ -108,7 +108,7 @@
   color: black;
 }
 .car-project__info p {
-  color: #000000be;
+  color: rgb(185, 185, 185);
   font-size: 1.8rem;
 }
 .car-project__info footer {

@@ -23,7 +23,7 @@ const Section3 = () => {
             </a>
           </div>
           <div className="car-project__info">
-            <h2> Granite Rentals 🚗</h2>
+            <h2 style={{ color: "#28c27f" }}> Granite Rentals 🚗</h2>
             <p>
               A car rental website is an online platform that allows users to
               rent cars for personal or business use.The website provides an
@@ -59,7 +59,7 @@ const Section3 = () => {
             </a>
           </div>
           <div className="car-project__info">
-            <h2>WorldWise ✈</h2>
+            <h2 style={{ color: "#28c27f" }}>WorldWise ✈</h2>
             <p>
               A Holiday or adventure tracker app.To have a notebook of your
               favourite destinations with the precise locations of where youve
