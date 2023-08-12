@@ -1,6 +1,6 @@
 # React Personal Project
 ---
-![mainpic](https://github.com/oktayrasimov/car-project/blob/master/src/images/github-test.png?raw=true)
+![mainpic](https://github.com/oktayrasimov/personal-project/blob/master/src/components/pics/gitHub-main.png?raw=true)
 
 ---
 ### You can check out at https://oktayrasimov.github.io/personal-project/
