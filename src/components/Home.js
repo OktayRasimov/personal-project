@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTag, faCity } from "@fortawesome/free-solid-svg-icons";
 
-import finalls from "../components/pics/my-main_final.png";
+import finalls from "../components/pics/finalls.png";
 import TechStack from "./TechStack";
 import { motion } from "framer-motion";
 
