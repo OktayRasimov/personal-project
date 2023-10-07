@@ -1,6 +1,7 @@
 import "./Section3.css";
 import carImg from "../../github-test.png";
-import comingSoon from "../../coming-soon.png";
+import watchtrack from "../pics/watchtrack.png";
+import pinpoint from "../pics/pinpointscreen.png";
 
 const Section3 = () => {
   return (
@@ -49,27 +50,79 @@ const Section3 = () => {
         </div>
         <div className="car-project__full flip">
           <div className="car-project">
-            <header>Holiday Tracker</header>
-            <a href="#" rel="noreferrer">
+            <header>Keep Track of Movies Watched</header>
+            <a
+              href="https://watch-track.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 alt="car-project-pic"
                 className="section-project__car-img"
-                src={comingSoon}
+                src={watchtrack}
               />
             </a>
           </div>
           <div className="car-project__info">
-            <h2 style={{ color: "#28c27f" }}>WorldWise ✈</h2>
+            <h2 style={{ color: "#28c27f" }}>WatchTrack 🎥 </h2>
             <p>
-              A Holiday or adventure tracker app.To have a notebook of your
-              favourite destinations with the precise locations of where youve
-              been and also to remeber if its worth a second visit
+              Are you a movie enthusiast looking to keep track of the films
+              you've watched and share your reviews with friends? Look no
+              further than WatchTrack!
             </p>
             <footer>
-              <a href="#" rel="noreferrer">
+              <a
+                href="https://github.com/OktayRasimov/WatchTrack"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Code 👩‍💻
               </a>
-              <a href="#" rel="noreferrer">
+              <a
+                href="https://watch-track.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo ⚙
+              </a>
+            </footer>
+          </div>
+        </div>
+        <div className="car-project__full">
+          <div className="car-project">
+            <header>Destination-Tracker</header>
+            <a
+              href="https://pin-point-beta.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                alt="car-project-pic"
+                className="section-project__car-img"
+                src={pinpoint}
+              />
+            </a>
+          </div>
+          <div className="car-project__info">
+            <h2 style={{ color: "#28c27f" }}> PinPoint 🔎</h2>
+            <p>
+              Have you ever wanted to relive your travels or keep a record of
+              every place you've explored? Look no further than PinPoint, the
+              ultimate location tracking app!
+            </p>
+            <footer>
+              <a
+                href="https://github.com/OktayRasimov/PinPoint"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code 👩‍💻
+              </a>
+              <a
+                href="https://pin-point-beta.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Live Demo ⚙
               </a>
             </footer>
