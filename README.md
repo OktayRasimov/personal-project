@@ -1,6 +1,6 @@
 <h1 align="center" id="title">React Personal Projects</h1>
 
-<p id="description">Main Repo for adding current and future Projects ive made. In the Future i will be refactoring this code bc this is the first project i made when i learned React</p>
+<p id="description">Main Repo for adding current and future Projects ive made. In the Future i will be refactoring this code bc this is the first project i made when i learned React so its rly bad</p>
 
 ![mainpic](https://github.com/oktayrasimov/personal-project/blob/master/src/components/pics/gitHub-main.png?raw=true)
 
