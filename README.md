@@ -1,25 +1,25 @@
-# React Personal Project
+<h1 align="center" id="title">React Personal Projects</h1>
 
----
+<p id="description">Main Repo for adding current and future Projects ive made. In the Future i will be refactoring this code bc this is the first project i made when i learned React</p>
 
 ![mainpic](https://github.com/oktayrasimov/personal-project/blob/master/src/components/pics/gitHub-main.png?raw=true)
 
----
+<h2>🚀 Demo</h2>
 
-### You can check out at https://oktayrasimov.github.io/personal-project/
+[https://oktayrasimov.github.io/personal-project/](https://oktayrasimov.github.io/personal-project/)
 
----
+  
+  
+<h2>💻 Built with</h2>
 
-Main App for hosting my CV and other Personal Project i have made
+Technologies used in the project:
 
-## Tech Used for the App
+*   React
 
----
+<h2>🛡️ License:</h2>
 
-- <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/htmllogo.png?raw=true' width='150' height='150'>
+This project is licensed under the oktayrasimov inc.
 
-- <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/csslogo.png?raw=true' width='150' height='150'>
+<h2>💖Like my work?</h2>
 
-- <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/jslogo.png?raw=true' width='150' height='150'>
-
-- <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/reactlogo.png?raw=true' width='150' height='150'>
+If you want to collab you can react me on my ig: <a href="https://instagram.com/okito__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="okito__" height="30" width="40" /></a>
