@@ -1,0 +1,47 @@
+.icon {
+  color: #28c27f;
+}
+.home-container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.home-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: max(700px, 40%);
+}
+.home-main-text {
+  font-size: 5.8rem;
+}
+
+.home-second-text {
+  font-size: 3rem;
+  color: rgb(177, 177, 177);
+}
+.home-second-text span {
+  color: #28c27f;
+}
+.home-container img {
+  height: auto;
+  max-width: 250px;
+  background-color: #28c27f;
+  animation: imgBorder 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes imgBorder {
+  0% {
+    clip-path: polygon(50% 12%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+  50% {
+    clip-path: polygon(54% 0, 100% 27%, 89% 99%, 13% 94%, 0 19%);
+  }
+
+  100% {
+    clip-path: polygon(57% 8%, 95% 36%, 85% 79%, 14% 83%, 11% 27%);
+  }
+}
