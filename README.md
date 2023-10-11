@@ -16,6 +16,11 @@ Technologies used in the project:
 
 *   React
 
+Animation Libraries Used:
+
+*   GSAP
+*   Framer Motion
+
 <h2>🛡️ License:</h2>
 
 This project is licensed under the oktayrasimov inc.
