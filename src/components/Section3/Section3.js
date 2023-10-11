@@ -32,7 +32,7 @@ const Section3 = () => {
             </p>
             <footer>
               <a
-                href="https://github.com/OktayRasimov/car-project/tree/master"
+                href="https://github.com/OktayRasimov/car-project"
                 target="_blank"
                 rel="noreferrer"
               >
